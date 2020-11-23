@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-docs.com',
+    'baseUrl' => 'https://placetopay-org.github.io/code-guidelines/',
     'production' => true,
 
     // DocSearch credentials

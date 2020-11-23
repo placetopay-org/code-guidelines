@@ -32,7 +32,7 @@
         @endif
 
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ url(mix('css/main.css', 'assets/build')) }}">
 
         @if ($page->docsearchApiKey && $page->docsearchIndexName)
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -43,7 +43,7 @@
         <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                    <a href="{{ url('/') }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-8" src="https://static.placetopay.com/placetopay-logo.svg" alt="PlacetoPay logo" />
 
                         <h1 class="text-lg md:text-2xl text-gray-900 font-semibold hover:text-gray-700 my-0 pr-4">{{ $page->siteName }}</h1>
@@ -64,7 +64,7 @@
             @yield('body')
         </main>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ url(mix('js/main.js', 'assets/build')) }}"></script>
 
         @stack('scripts')
 
