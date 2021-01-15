@@ -157,13 +157,13 @@ Route::get('payment-methods/{payment_method}', ...);
 
 ### Testing
 
-When testing endpoints use plain routes
+When testing endpoints use the `route()` helper.
 
 ```php
 // 👎🏻
-$this->actingAs($user)->get(route('payment-methods.index'));
+$this->get('/payment-methods')->assertOk();
 
 
 // ✅
-$this->actingAs($user)->get('/payment-methods');
+$this->get(route('payment-methods.index'))->assertOk();
 ```
