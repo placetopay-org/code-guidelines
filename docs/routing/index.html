@@ -361,14 +361,14 @@ Route::get('payment-methods/{payment_method}', ...);
 
 <h3>Testing</h3>
 
-<p>When testing endpoints use plain routes</p>
+<p>When testing endpoints use the <code>route()</code> helper.</p>
 
 <pre><code class="language-php">// 👎🏻
-$this-&gt;actingAs($user)-&gt;get(route('payment-methods.index'));
+$this-&gt;get('/payment-methods')-&gt;assertOk();
 
 
 // ✅
-$this-&gt;actingAs($user)-&gt;get('/payment-methods');
+$this-&gt;get(route('payment-methods.index'))-&gt;assertOk();
 </code></pre>
         </div>
     </div>
@@ -392,7 +392,7 @@ $this-&gt;actingAs($user)-&gt;get('/payment-methods');
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2020.
+                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2021.
                 </li>
 
                 <li>

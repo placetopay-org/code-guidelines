@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/if-statements</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/routing</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/traits</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/environment-variables</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/docblocks</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/strings</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/validation</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/whitespace</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/views</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/comments</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/introduction</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/typehints</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/configuration</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/controllers</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/translations</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://placetopay-org.github.io/code-guidelines/docs/artisan-commands</loc>
-  <lastmod>2020-11-23T20:31:19+00:00</lastmod>
+  <lastmod>2021-01-15T14:28:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
