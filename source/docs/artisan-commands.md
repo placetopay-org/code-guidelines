@@ -55,3 +55,17 @@ public function handle()
     $this->comment("Processed {$item->count()} items.");
 }
 ```
+
+
+## Parameters
+When you need to add arguments or options to the command you should use snake case to named these arguments
+```php
+// 👎🏻
+{--redirectUri= : The URI to redirect to after authorization }
+{--redirect-uri= : The URI to redirect to after authorization }
+{--RedirectUri= : The URI to redirect to after authorization }
+
+
+// ✅
+{--redirect_uri= : The URI to redirect to after authorization }
+```
